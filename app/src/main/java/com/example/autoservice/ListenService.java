@@ -12,13 +12,13 @@ public class ListenService extends Service {
 
 	@Override
 	public IBinder onBind(Intent intent) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
 	@Override
 	public void onCreate() {
-		// TODO Auto-generated method stub
+		
 		notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 		showNotification();
 		super.onCreate();
