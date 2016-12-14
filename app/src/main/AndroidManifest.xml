@@ -33,7 +33,7 @@
             android:process=":remote" >
         </service>
 
-        <receiver android:name="com.example.autoservice.ListenServiceBrootReceiver" >
+        <receiver android:name="com.example.autoservice.AutoServiceBroadReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" >
                 </action>
