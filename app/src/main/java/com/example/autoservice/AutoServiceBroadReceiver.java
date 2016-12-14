@@ -9,7 +9,6 @@ public class AutoServiceBroadReceiver extends BroadcastReceiver {
 	private final String ACTION_BOOT = "android.intent.action.BOOT_COMPLETED";
 
 	@Override
-
 	public void onReceive(Context context, Intent intent) {
 
 		if (ACTION_BOOT.equals(intent.getAction())) {
@@ -20,5 +19,4 @@ public class AutoServiceBroadReceiver extends BroadcastReceiver {
 		}
 
 	}
-
 }
