@@ -18,7 +18,7 @@ public class ListenService extends Service {
     }
 }
 ```
-2.广播接收器，接受系统启动广播<br>
+2.广播接收器，接收系统启动广播<br>
 ```java
 public class AutoServiceBroadReceiver extends BroadcastReceiver {
 
